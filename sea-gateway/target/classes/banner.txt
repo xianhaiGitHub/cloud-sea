@@ -1,0 +1,6 @@
+|------------------------------|
+|    sea-spring cloud          |
+|                              |
+|   ${spring.application.name} 微服务|
+|   Spring-Boot: ${spring-boot.version}|
+|------------------------------|

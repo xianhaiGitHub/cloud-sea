@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>sea-cloud</artifactId>
+        <groupId>com.sea</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath/>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <!-- 引入 模块-->
+    <modules>
+        <module>sea-server-system</module>
+        <module>sea-server-test</module>
+    </modules>
+    <artifactId>sea-server</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>sea-server</name>
+    <description>sea-server服务提供模块</description>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>com.sea</groupId>
+            <artifactId>sea-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>

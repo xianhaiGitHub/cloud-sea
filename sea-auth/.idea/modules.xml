@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sea-auth.iml" filepath="$PROJECT_DIR$/sea-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sea-cloud/sea-cloud.iml" filepath="$PROJECT_DIR$/../sea-cloud/sea-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sea-common/sea-common.iml" filepath="$PROJECT_DIR$/../sea-common/sea-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sea-gateway/sea-gateway.iml" filepath="$PROJECT_DIR$/../sea-gateway/sea-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sea-register/sea-register.iml" filepath="$PROJECT_DIR$/../sea-register/sea-register.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sea-server/sea-server.iml" filepath="$PROJECT_DIR$/../sea-server/sea-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sea-server/sea-server-system/sea-server-system.iml" filepath="$PROJECT_DIR$/../sea-server/sea-server-system/sea-server-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sea-server/sea-server-test/sea-server-test.iml" filepath="$PROJECT_DIR$/../sea-server/sea-server-test/sea-server-test.iml" />
+    </modules>
+  </component>
+</project>

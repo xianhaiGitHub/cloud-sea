@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sea-gateway" />
+        <module name="sea-common" />
+        <module name="sea-server-test" />
+        <module name="sea-server-system" />
+        <module name="sea-register" />
+        <module name="sea-auth" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sea-auth" target="1.8" />
+      <module name="sea-cloud" target="1.8" />
+      <module name="sea-common" target="1.8" />
+      <module name="sea-gateway" target="1.8" />
+      <module name="sea-register" target="1.8" />
+      <module name="sea-server" target="1.8" />
+      <module name="sea-server-system" target="1.8" />
+      <module name="sea-server-test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sea-auth" options="-parameters" />
+      <module name="sea-common" options="-parameters" />
+      <module name="sea-gateway" options="-parameters" />
+      <module name="sea-register" options="-parameters" />
+      <module name="sea-server-system" options="-parameters" />
+      <module name="sea-server-test" options="-parameters" />
+    </option>
+  </component>
+</project>
